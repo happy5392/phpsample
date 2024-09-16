@@ -1,0 +1,23 @@
+{
+    "name": "kamakshyaprasadkar/my-private-package",
+    "description": "its for testing purpose only",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kamakshyaprasadkar\\MyPrivatePackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "kamakshya",
+            "email": "kkar@endor.ai"
+        }
+    ]
+}
